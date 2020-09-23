@@ -1,0 +1,44 @@
+.custom-row {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.custom-row::-webkit-scrollbar {
+    display: none;
+}
+
+.isBackgroundPoster {
+    max-height: 100px;
+    transition: transform 450ms;
+    margin-right: 10px;
+    -webkit-transition: transform 450ms;
+    -moz-transition: transform 450ms;
+    -ms-transition: transform 450ms;
+    -o-transition: transform 450ms;
+}
+
+.isBackgroundPoster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+}
+
+.isLargePoster {
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+.isLargePoster:hover {
+    transform: scale(1.09);
+    opacity: 1;
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+}
